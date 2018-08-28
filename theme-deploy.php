@@ -15,7 +15,7 @@ $file = $dir.'/wp-starter.zip';
   if(!file_exists($file)):
     chmod($dir ,0777); 
     file_put_contents($file, 
-        file_get_contents("https://github.com/NoriCode/WPstarter/archive/master.zip")
+        file_get_contents("https://github.com/Norimx/WPstarter/archive/master.zip")
     );
   endif;
 
