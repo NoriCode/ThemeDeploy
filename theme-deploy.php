@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Install_starter
- * @version 1.7
+ * @version 1.8.1
  */
 /*
 Plugin Name: Starter Theme Deploy
