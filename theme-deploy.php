@@ -56,6 +56,12 @@ function my_acf_notice() {
   <?php
 }
 
+update_option( 'default_ping_status', 'closed' );
+update_option( 'default_pingback_flag', 0 );
+update_option( 'default_comment_status', 'closed' );
+update_option( 'comment_registration', 1 );
+update_option( 'comment_moderation', 1 );
+
 function deletos($dir) { 
   $files = array_diff(scandir($dir), array('.','..')); 
     foreach ($files as $file) { 
